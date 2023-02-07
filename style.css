@@ -1,0 +1,121 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  margin:0 2rem;
+  color: #000000;
+  background-color: #e2dede;
+  /* background-color: #60b347; */
+}
+
+/* LAYOUT */
+header {
+  position: relative;
+
+  /* border-bottom: 7px solid #eee; */
+}
+
+.header{
+  background-color: #cecece;
+  padding: 0.5rem;
+  display: flex;
+}
+.logodiv{
+  flex: 0 0 30%;
+}
+.taxheader{
+  
+  font-size: 4rem;
+  flex: 0 0 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+ 
+  height:6rem ;
+  width:9rem ;
+}
+.label-form{
+  font-size: 2rem;
+  font-weight: 700;
+ margin:0  3rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+margin: 1rem 0;
+
+}
+.input-form{
+  padding: 1rem  ;
+  border: none;
+ 
+}
+.form-form{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+ 
+}
+.form-submit{
+  height: 5rem;
+  width: 14rem;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 1rem 0;
+  border-radius: 100px;
+  background-color: #0ac45e;
+  border: none;
+}
+.form-submit:hover{
+  background-color: #ffffff;
+  border: 3px solid #0ac45e ;
+  transform: translateY(0);
+}
+.form-submit:active{
+  transform: translateY(.5rem);
+}
+.result{
+  
+  background-color: #000000;
+  color: #ffffff;
+  width: 100%;
+  border-bottom: 4px solid #eee;
+
+}
+.id-text{
+  text-align: center;
+  padding: 1rem 0;
+  border-bottom: 4px solid #eee;
+}
+.id-issue{
+  font-size: 10rem;
+  text-align: center;
+ 
+}
+.label-radio{
+  display: inline-block;
+}
+.footer{
+ text-align: center;
+ font-size: 1.6rem;
+ background-color: #000000;
+ 
+ color: #ffffff;
+}
+
+
+

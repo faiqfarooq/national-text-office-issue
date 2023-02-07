@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <title>Evaluation Task</title>
+  </head>
+  <body>
+    <header class="header" class="logodiv">
+      <div>
+      <img src="./flag.png" alt="picture of flag" class="logo" >
+    </div>
+      <h1 class="taxheader">National Tax Office</h1>
+    </header>
+    <main>
+     
+     <h1 class="" style="margin: 3rem 0;text-align: center;">Enter Details </h1>
+     <!-- --------------------form----------------------- -->
+     <div  class="form-form">
+ 
+ <label for="firstname" class="label-form">First Name</label>
+ <input type="text" placeholder="Enter First Name" class="input-form" id="firstname"  onchange="upperCase()" >
+     
+        <br>
+        <label for="lname" class="label-form">Sur name:</label>
+        <input type="text" id="lname" class="input-form"  placeholder="Enter Surname" required onchange="upperCase()">
+  
+ <!-------------------------- gender---------------- -->
+        <label for="gender" class="label-form">Gender:</label>
+        <p id="select-radio"></p>
+        <input type="radio" id="male" class="input-form radio-input"   name="gender" value="M"   required onchange="genderselect()"> <label for="male">Male</label>
+        <input type="radio" id="female" class="input-form radio-input"  name="gender" value="F" required onchange="genderselect()">
+        <label for="female"  class="label-radio">Female</label>
+
+        
+
+
+        <br>
+        <!-- *********************dob************* -->
+        <label for="DOB" class="label-form">DOB:</label>
+        <input type="date" id="DOB" class="input-form"  placeholder="Enter DOB" required>
+   
+      <br>
+      <button  onclick="loadData()" class="form-submit">Submit</button>
+     </div>
+ 
+     <div class="result">
+      <h2 class="id-text">You have issued the identifying ID given below</h2>
+      <h3 class="id-issue">SEE HERE</h3>
+     </div>
+    </main>
+    <footer class="footer"><footer>&copy; Copyright 2023
+    Faiq Farooq</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
